@@ -1,6 +1,6 @@
 # Heyo, I'm Razor ✦
 
-### ✨ I'm a **IT student**, **Front-end Freelance** learning all the **Back-End Stuff**
+### ✨ I'm a IT student, Front-end Freelance learning all the Back-End Stuff
 
 ### ⚡ I can code in 
 
