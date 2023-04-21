@@ -13,6 +13,7 @@
  ### 🌱 Currently learning
   - Typescript
   - C#
+  - Next.JS
   
  
 
