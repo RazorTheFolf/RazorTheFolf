@@ -1,6 +1,5 @@
 <div align="center">
   <img align="middle" src="https://github-readme-stats.vercel.app/api?username=razorthewolf&show_icons=true&bg_color=292929&text_color=f5f5f5&title_color=f97316&icon_color=f97316"/>
-   &ensp;&ensp;&ensp;&ensp;&ensp;
   <img align="middle" src="https://github-readme-stats.vercel.app/api/top-langs/?username=razorthewolf&layout=donut&bg_color=292929&text_color=f5f5f5&title_color=f97316"/>
   <br/>
   <br/>
