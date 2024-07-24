@@ -41,7 +41,7 @@ I don't have any interesting repos sadly.
 # 📊GitHub Stats :
 ![](https://github-readme-stats.vercel.app/api?username=razorthefolf&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=razorthefolf&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=razorthefolff&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=razorthefolf&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=razorthefolf&icon=2&color=2)](https://visitcount.itsvg.in)
