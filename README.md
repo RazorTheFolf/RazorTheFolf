@@ -4,7 +4,7 @@ Well I'm a French student currently studying for a BTS SIO SLAM. I'm diving deep
 
 Curious by nature, always learning, and passionate about building cool things. 🚀
 
-⬇️ See below what technologies I do know, with colorfull bages! ⬇️
+⬇️ See below what technologies I do know ⬇️
 
 # 💻 Tech Stack 
 
