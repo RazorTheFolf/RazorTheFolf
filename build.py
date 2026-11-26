@@ -94,7 +94,7 @@ def info(s):
         ("OS", "macOS, Linux"),
         ("Uptime", s["uptime"]),
         ("Host", "IPSSI - BTS SIO SLAM (2025 - 2027)"),
-        ("Kernel", "Full-Stack Developer, IoT tinkerer"),
+        ("Kernel", "Software Engineer, IoT tinkerer"),
         ("Status", "Looking for an alternance (Web / IoT)"),
         ("", ""),
         ("Languages.Front", "TypeScript, React, React Native, Vue"),
