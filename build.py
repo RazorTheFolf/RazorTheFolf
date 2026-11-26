@@ -52,10 +52,19 @@ def stats():
     # shortcut: stars only cover the first 100 repos, paginate if that is ever outgrown
     u = gql(
         f'''{{ user(login: "{USER}") {{ createdAt followers {{ totalCount }}
-        repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) {{ totalCount nodes {{ stargazerCount }} }}
-        contributionsCollection {{ contributionYears }} }} }}''',
+        pullRequests {{ totalCount }} issues {{ totalCount }}
+        repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) {{ totalCount nodes {{
+            stargazerCount languages(first: 10) {{ edges {{ size node {{ name }} }} }} }} }}
+        contributionsCollection {{ contributionYears contributionCalendar {{
+            totalContributions weeks {{ contributionDays {{ contributionCount }} }} }} }} }} }}''',
         token,
     )
+    calendar_ = u["contributionsCollection"]["contributionCalendar"]
+    days = [d["contributionCount"] for w in calendar_["weeks"] for d in w["contributionDays"]]
+    langs = {}
+    for repo in u["repositories"]["nodes"]:
+        for e in repo["languages"]["edges"]:
+            langs[e["node"]["name"]] = langs.get(e["node"]["name"], 0) + e["size"]
     years = " ".join(
         f'y{y}: contributionsCollection(from: "{y}-01-01T00:00:00Z", to: "{y}-12-31T23:59:59Z") {{ totalCommitContributions }}'
         for y in u["contributionsCollection"]["contributionYears"]
@@ -67,7 +76,29 @@ def stats():
         stars=str(sum(r["stargazerCount"] for r in u["repositories"]["nodes"])),
         commits=f"{commits:,}",
         followers=str(u["followers"]["totalCount"]),
+        prs=str(u["pullRequests"]["totalCount"]),
+        issues=str(u["issues"]["totalCount"]),
+        year=f'{calendar_["totalContributions"]:,}',
+        streak=f"{(n := streak(days))} day{'s' * (n != 1)}",
+        langs=", ".join(sorted(langs, key=langs.get, reverse=True)[:3]),
     )
+
+
+def streak(days):
+    """Consecutive active days ending today; an empty today doesn't break it, the day isn't over."""
+    if days and days[-1] == 0:
+        days = days[:-1]
+    n = 0
+    for count in reversed(days):
+        if not count:
+            break
+        n += 1
+    return n
+
+
+assert streak([1, 0, 2, 3, 0]) == 2
+assert streak([1, 1, 1]) == 3
+assert streak([0, 0]) == 0
 
 
 def age(start, today):
@@ -123,6 +154,9 @@ def info(s):
         (None, "GitHub Stats"),
         ([("Repos", s["repos"]), ("Stars", s["stars"])], None),
         ([("Commits", s["commits"]), ("Followers", s["followers"])], None),
+        ([("PRs", s["prs"]), ("Issues", s["issues"])], None),
+        ([("Streak", s["streak"]), ("Last year", s["year"])], None),
+        ("Top languages", s["langs"]),
     ]
 
 
