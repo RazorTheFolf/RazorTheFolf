@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1270px" height="760px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1250px" height="760px" font-size="16px">
 <style>text,tspan{white-space:pre} .key{fill:#953800} .value{fill:#0a3069} .dots{fill:#c2cfde}</style>
-<rect width="1270px" height="760px" fill="#f6f8fa" rx="15"/>
+<rect width="1250px" height="760px" fill="#f6f8fa" rx="15"/>
 <g fill="#61bb46">
 <circle cx="173.9" cy="96.5" r="6.8"/>
 <circle cx="190.1" cy="80.3" r="6.8"/>
@@ -827,41 +827,41 @@
 <circle cx="481.7" cy="679.7" r="6.8"/>
 </g>
 <text fill="#24292f">
-<tspan x="664" y="30">- razor@folf ------------------------------------------------</tspan>
-<tspan x="664" y="50">. <tspan class="key">OS</tspan>: <tspan class="dots">.........................................</tspan> <tspan class="value">macOS, Linux</tspan></tspan>
-<tspan x="664" y="70">. <tspan class="key">Uptime</tspan>: <tspan class="dots">........................</tspan> <tspan class="value">6 years, 1 month, 15 days</tspan></tspan>
-<tspan x="664" y="90">. <tspan class="key">Host</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">IPSSI - BTS SIO SLAM (2025 - 2027)</tspan></tspan>
-<tspan x="664" y="110">. <tspan class="key">Kernel</tspan>: <tspan class="dots">..................</tspan> <tspan class="value">Software Engineer, IoT tinkerer</tspan></tspan>
-<tspan x="664" y="130">. <tspan class="key">Status</tspan>: <tspan class="dots">............</tspan> <tspan class="value">Looking for an alternance (Web / IoT)</tspan></tspan>
+<tspan x="664" y="30">- razor@folf ----------------------------------------------</tspan>
+<tspan x="664" y="50">. <tspan class="key">OS</tspan>: <tspan class="dots">.......................................</tspan> <tspan class="value">macOS, Linux</tspan></tspan>
+<tspan x="664" y="70">. <tspan class="key">Uptime</tspan>: <tspan class="dots">......................</tspan> <tspan class="value">6 years, 1 month, 15 days</tspan></tspan>
+<tspan x="664" y="90">. <tspan class="key">Host</tspan>: <tspan class="dots">...............</tspan> <tspan class="value">IPSSI - BTS SIO SLAM (2025 - 2027)</tspan></tspan>
+<tspan x="664" y="110">. <tspan class="key">Kernel</tspan>: <tspan class="dots">................</tspan> <tspan class="value">Software Engineer, IoT tinkerer</tspan></tspan>
+<tspan x="664" y="130">. <tspan class="key">Status</tspan>: <tspan class="dots">..........</tspan> <tspan class="value">Looking for an alternance (Web / IoT)</tspan></tspan>
 <tspan x="664" y="150"></tspan>
-<tspan x="664" y="170">. <tspan class="key">Languages.Front</tspan>: <tspan class="dots">....</tspan> <tspan class="value">TypeScript, React, React Native, Vue</tspan></tspan>
-<tspan x="664" y="190">. <tspan class="key">Languages.Back</tspan>: <tspan class="dots">..............</tspan> <tspan class="value">Node.js, Go, PHP, Java, C++</tspan></tspan>
-<tspan x="664" y="210">. <tspan class="key">Languages.Real</tspan>: <tspan class="dots">................</tspan> <tspan class="value">French, English, Romanian</tspan></tspan>
-<tspan x="664" y="230">. <tspan class="key">Data</tspan>: <tspan class="dots">................</tspan> <tspan class="value">PostgreSQL, MongoDB, MariaDB, Redis</tspan></tspan>
-<tspan x="664" y="250">. <tspan class="key">Ops</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">Docker, GitHub Actions, n8n, Prisma</tspan></tspan>
+<tspan x="664" y="170">. <tspan class="key">Languages.Front</tspan>: <tspan class="dots">................</tspan> <tspan class="value">TypeScript, React, Vue</tspan></tspan>
+<tspan x="664" y="190">. <tspan class="key">Languages.Back</tspan>: <tspan class="dots">............</tspan> <tspan class="value">Node.js, Go, PHP, Java, C++</tspan></tspan>
+<tspan x="664" y="210">. <tspan class="key">Languages.Real</tspan>: <tspan class="dots">..............</tspan> <tspan class="value">French, English, Romanian</tspan></tspan>
+<tspan x="664" y="230">. <tspan class="key">Data</tspan>: <tspan class="dots">..............</tspan> <tspan class="value">PostgreSQL, MongoDB, MariaDB, Redis</tspan></tspan>
+<tspan x="664" y="250">. <tspan class="key">Ops</tspan>: <tspan class="dots">......</tspan> <tspan class="value">Docker, GitHub Actions, n8n, Prisma, GraphQL</tspan></tspan>
 <tspan x="664" y="270"></tspan>
-<tspan x="664" y="290">- IoT -------------------------------------------------------</tspan>
-<tspan x="664" y="310">. <tspan class="key">Into</tspan>: <tspan class="dots">.........</tspan> <tspan class="value">Microcontrollers, sensors, home automation</tspan></tspan>
-<tspan x="664" y="330">. <tspan class="key">Learning</tspan>: <tspan class="dots">.............</tspan> <tspan class="value">C++ on ESP32, MQTT, Home Assistant</tspan></tspan>
-<tspan x="664" y="350">. <tspan class="key">Goal</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">Wire real-world devices to the web</tspan></tspan>
+<tspan x="664" y="290">- IoT -----------------------------------------------------</tspan>
+<tspan x="664" y="310">. <tspan class="key">Into</tspan>: <tspan class="dots">.......</tspan> <tspan class="value">Microcontrollers, sensors, home automation</tspan></tspan>
+<tspan x="664" y="330">. <tspan class="key">Learning</tspan>: <tspan class="dots">...........</tspan> <tspan class="value">C++ on ESP32, MQTT, Home Assistant</tspan></tspan>
+<tspan x="664" y="350">. <tspan class="key">Goal</tspan>: <tspan class="dots">...............</tspan> <tspan class="value">Wire real-world devices to the web</tspan></tspan>
 <tspan x="664" y="370"></tspan>
-<tspan x="664" y="390">- Razor -----------------------------------------------------</tspan>
-<tspan x="664" y="410">. <tspan class="key">Species</tspan>: <tspan class="dots">...............................</tspan> <tspan class="value">Folf (fox x wolf)</tspan></tspan>
-<tspan x="664" y="430">. <tspan class="key">Shell</tspan>: <tspan class="dots">.....................</tspan> <tspan class="value">zsh, greeted by a rainbow paw</tspan></tspan>
-<tspan x="664" y="450">. <tspan class="key">Fun side</tspan>: <tspan class="dots">........</tspan> <tspan class="value">raz0r.fr</tspan> | <tspan class="key">Pro side</tspan>: <tspan class="dots">.....</tspan> <tspan class="value">me.raz0r.fr</tspan></tspan>
+<tspan x="664" y="390">- Razor ---------------------------------------------------</tspan>
+<tspan x="664" y="410">. <tspan class="key">Species</tspan>: <tspan class="dots">.............................</tspan> <tspan class="value">Folf (fox x wolf)</tspan></tspan>
+<tspan x="664" y="430">. <tspan class="key">Shell</tspan>: <tspan class="dots">...................</tspan> <tspan class="value">zsh, greeted by a rainbow paw</tspan></tspan>
+<tspan x="664" y="450">. <tspan class="key">Fun side</tspan>: <tspan class="dots">.......</tspan> <tspan class="value">raz0r.fr</tspan> | <tspan class="key">Pro side</tspan>: <tspan class="dots">....</tspan> <tspan class="value">me.raz0r.fr</tspan></tspan>
 <tspan x="664" y="470"></tspan>
-<tspan x="664" y="490">- Experience ------------------------------------------------</tspan>
-<tspan x="664" y="510">. <tspan class="key">Furalure Events</tspan>: <tspan class="dots">.......</tspan> <tspan class="value">Full-Stack Intern, Apr - Jun 2026</tspan></tspan>
-<tspan x="664" y="530">. <tspan class="key">Built</tspan>: <tspan class="dots">.....................</tspan> <tspan class="value">PAM: OIDC, multi-admin quorum</tspan></tspan>
+<tspan x="664" y="490">- Experience ----------------------------------------------</tspan>
+<tspan x="664" y="510">. <tspan class="key">Furalure Events</tspan>: <tspan class="dots">.....</tspan> <tspan class="value">Full-Stack Intern, Apr - Jun 2026</tspan></tspan>
+<tspan x="664" y="530">. <tspan class="key">Built</tspan>: <tspan class="dots">...................</tspan> <tspan class="value">PAM: OIDC, multi-admin quorum</tspan></tspan>
 <tspan x="664" y="550"></tspan>
-<tspan x="664" y="570">- Contact ---------------------------------------------------</tspan>
-<tspan x="664" y="590">. <tspan class="key">Email</tspan>: <tspan class="dots">..................................</tspan> <tspan class="value">contact@raz0r.fr</tspan></tspan>
+<tspan x="664" y="570">- Contact -------------------------------------------------</tspan>
+<tspan x="664" y="590">. <tspan class="key">Email</tspan>: <tspan class="dots">................................</tspan> <tspan class="value">contact@raz0r.fr</tspan></tspan>
 <tspan x="664" y="610"></tspan>
-<tspan x="664" y="630">- GitHub Stats ----------------------------------------------</tspan>
-<tspan x="664" y="650">. <tspan class="key">Repos</tspan>: <tspan class="dots">..................</tspan> <tspan class="value">8</tspan> | <tspan class="key">Stars</tspan>: <tspan class="dots">..................</tspan> <tspan class="value">6</tspan></tspan>
-<tspan x="664" y="670">. <tspan class="key">Commits</tspan>: <tspan class="dots">..............</tspan> <tspan class="value">165</tspan> | <tspan class="key">Followers</tspan>: <tspan class="dots">.............</tspan> <tspan class="value">14</tspan></tspan>
-<tspan x="664" y="690">. <tspan class="key">PRs</tspan>: <tspan class="dots">....................</tspan> <tspan class="value">5</tspan> | <tspan class="key">Issues</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">0</tspan></tspan>
-<tspan x="664" y="710">. <tspan class="key">Streak</tspan>: <tspan class="dots">.............</tspan> <tspan class="value">1 day</tspan> | <tspan class="key">Last year</tspan>: <tspan class="dots">.............</tspan> <tspan class="value">41</tspan></tspan>
-<tspan x="664" y="730">. <tspan class="key">Top languages</tspan>: <tspan class="dots">......................</tspan> <tspan class="value">Vue, JavaScript, C++</tspan></tspan>
+<tspan x="664" y="630">- GitHub Stats --------------------------------------------</tspan>
+<tspan x="664" y="650">. <tspan class="key">Repos</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">8</tspan> | <tspan class="key">Stars</tspan>: <tspan class="dots">.................</tspan> <tspan class="value">6</tspan></tspan>
+<tspan x="664" y="670">. <tspan class="key">Commits</tspan>: <tspan class="dots">.............</tspan> <tspan class="value">165</tspan> | <tspan class="key">Followers</tspan>: <tspan class="dots">............</tspan> <tspan class="value">14</tspan></tspan>
+<tspan x="664" y="690">. <tspan class="key">PRs</tspan>: <tspan class="dots">...................</tspan> <tspan class="value">5</tspan> | <tspan class="key">Issues</tspan>: <tspan class="dots">................</tspan> <tspan class="value">0</tspan></tspan>
+<tspan x="664" y="710">. <tspan class="key">Streak</tspan>: <tspan class="dots">............</tspan> <tspan class="value">1 day</tspan> | <tspan class="key">Last year</tspan>: <tspan class="dots">............</tspan> <tspan class="value">41</tspan></tspan>
+<tspan x="664" y="730">. <tspan class="key">Top languages</tspan>: <tspan class="dots">....................</tspan> <tspan class="value">Vue, JavaScript, C++</tspan></tspan>
 </text>
 </svg>
