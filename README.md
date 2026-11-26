@@ -4,3 +4,5 @@
     <img alt="razor@folf: software engineer card for RazorTheFolf" src="light_mode.svg">
   </picture>
 </a>
+
+![](https://komarev.com/ghpvc/?username=razorthefolf)
